@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #af8ee4, #66306e);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.abas {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.abas button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f3b4f6;
+  font-weight: bold;
+}
+
+.abas button.ativa {
+  background-color: #320465;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #320465;
+  color: white;
+}
+
+button.selecionar {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #320465;
+  color: white;
+  cursor: pointer;
+}
+
+.resumo {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ecadff;
+  border-radius: 8px;
+}
